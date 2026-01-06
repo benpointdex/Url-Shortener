@@ -28,7 +28,7 @@ public class UserDetailsImpl implements UserDetails {
         GrantedAuthority authority= new SimpleGrantedAuthority(user.getRoles());
         return new UserDetailsImpl(
                 user.getId(),
-                user.getUserName(),
+                user.getUsername(),
                 user.getEmail(),
                 user.getPassword(),
                 Collections.singleton(authority)
