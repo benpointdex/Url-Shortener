@@ -1,7 +1,7 @@
-package com.urlShortner.controller;
+package com.urlShortener.controller;
 
-import com.urlShortner.model.UrlMapping;
-import com.urlShortner.service.UrlMappingService;
+import com.urlShortener.model.UrlMapping;
+import com.urlShortener.service.UrlMappingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.ResponseEntity;

@@ -1,4 +1,4 @@
-package com.urlShortner.model;
+package com.urlShortener.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

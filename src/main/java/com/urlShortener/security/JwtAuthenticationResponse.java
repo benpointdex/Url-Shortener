@@ -1,4 +1,4 @@
-package com.urlShortner.security;
+package com.urlShortener.security;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

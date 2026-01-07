@@ -1,12 +1,12 @@
-package com.urlShortner.service;
+package com.urlShortener.service;
 
-import com.urlShortner.dtos.ClickEventDTO;
-import com.urlShortner.dtos.UrlMappingDTO;
-import com.urlShortner.model.ClickEvent;
-import com.urlShortner.model.UrlMapping;
-import com.urlShortner.model.User;
-import com.urlShortner.repository.ClickEventRepository;
-import com.urlShortner.repository.UrlMappingRepository;
+import com.urlShortener.dtos.ClickEventDTO;
+import com.urlShortener.dtos.UrlMappingDTO;
+import com.urlShortener.model.ClickEvent;
+import com.urlShortener.model.UrlMapping;
+import com.urlShortener.model.User;
+import com.urlShortener.repository.ClickEventRepository;
+import com.urlShortener.repository.UrlMappingRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,10 +1,10 @@
-package com.urlShortner.service;
+package com.urlShortener.service;
 
-import com.urlShortner.dtos.LoginRequest;
-import com.urlShortner.model.User;
-import com.urlShortner.repository.UserRepository;
-import com.urlShortner.security.JwtAuthenticationResponse;
-import com.urlShortner.security.JwtUtils;
+import com.urlShortener.dtos.LoginRequest;
+import com.urlShortener.model.User;
+import com.urlShortener.repository.UserRepository;
+import com.urlShortener.security.JwtAuthenticationResponse;
+import com.urlShortener.security.JwtUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

@@ -1,4 +1,4 @@
-package com.urlShortner.dtos;
+package com.urlShortener.dtos;
 
 import lombok.Data;
 

@@ -1,9 +1,9 @@
-package com.urlShortner.controller;
+package com.urlShortener.controller;
 
-import com.urlShortner.dtos.LoginRequest;
-import com.urlShortner.dtos.RegisterRequest;
-import com.urlShortner.model.User;
-import com.urlShortner.service.UserService;
+import com.urlShortener.dtos.LoginRequest;
+import com.urlShortener.dtos.RegisterRequest;
+import com.urlShortener.model.User;
+import com.urlShortener.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

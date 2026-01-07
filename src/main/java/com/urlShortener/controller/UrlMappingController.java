@@ -1,11 +1,10 @@
-package com.urlShortner.controller;
+package com.urlShortener.controller;
 
-import com.urlShortner.dtos.ClickEventDTO;
-import com.urlShortner.dtos.UrlMappingDTO;
-import com.urlShortner.model.ClickEvent;
-import com.urlShortner.model.User;
-import com.urlShortner.service.UrlMappingService;
-import com.urlShortner.service.UserService;
+import com.urlShortener.dtos.ClickEventDTO;
+import com.urlShortener.dtos.UrlMappingDTO;
+import com.urlShortener.model.User;
+import com.urlShortener.service.UrlMappingService;
+import com.urlShortener.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
