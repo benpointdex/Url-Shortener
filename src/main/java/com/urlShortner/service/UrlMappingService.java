@@ -85,4 +85,15 @@ public class UrlMappingService {
             .collect(Collectors.groupingBy(click->click.getClickDate().toLocalDate(), Collectors.counting()));
 
     }
+
+    public UrlMapping getOriginalUrl(String shortUrl) {
+        UrlMapping urlMapping= urlMappingRepository.findByShortUrl(shortUrl);
+        if (urlMapping!=null){
+            urlMapping.setClickCount(urlMapping.getClickCount()+1);
+            urlMappingRepository.save(urlMapping);
+
+
+        }
+        return urlMapping;
+    }
 }
