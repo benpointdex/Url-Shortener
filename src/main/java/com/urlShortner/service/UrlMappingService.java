@@ -91,7 +91,10 @@ public class UrlMappingService {
         if (urlMapping!=null){
             urlMapping.setClickCount(urlMapping.getClickCount()+1);
             urlMappingRepository.save(urlMapping);
-
+            ClickEvent clickEvent=new ClickEvent();
+            clickEvent.setClickDate(LocalDateTime.now());
+            clickEvent.setUrlMapping(urlMapping);
+            clickEventRepository.save(clickEvent);
 
         }
         return urlMapping;
