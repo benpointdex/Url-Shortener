@@ -5,9 +5,7 @@
   <a href="https://short-ifyy.netlify.app/">
     <img src="https://img.shields.io/badge/Live_Demo-Netlify-00C7B7?style=for-the-badge&logo=netlify" />
   </a>
-  <a href="https://render.com/">
-    <img src="https://img.shields.io/badge/Backend-Render-46E3B7?style=for-the-badge&logo=render" />
-  </a>
+ 
 </div>
 
 ---
@@ -62,10 +60,6 @@ The project focuses on **clean backend design, secure authentication, and practi
 ## 📸 Screenshots
 
 ![Dashboard View](./assets/capture_20260421001905695.png)
-
-![Link Management](./assets/capture_20260421001935949.png)
-
-![Analytics Overview](./assets/capture_20260421002032130.png)
 
 ![Login Screen](./assets/capture_20260421002107488.png)
 
