@@ -61,17 +61,15 @@ The project focuses on **clean backend design, secure authentication, and practi
 
 ## 📸 Screenshots
 
-<p align="center">
-  <img src="assets/capture_20260421001905695.bmp" width="800" alt="Dashboard View"/>
-  <br/><br/>
-  <img src="assets/capture_20260421001935949.bmp" width="800" alt="Link Management"/>
-  <br/><br/>
-  <img src="assets/capture_20260421002032130.bmp" width="800" alt="Analytics Overview"/>
-  <br/><br/>
-  <img src="assets/capture_20260421002107488.bmp" width="800" alt="Login Screen"/>
-  <br/><br/>
-  <img src="assets/capture_20260421002136506.bmp" width="800" alt="Registration Screen"/>
-</p>
+![Dashboard View](./assets/capture_20260421001905695.png)
+
+![Link Management](./assets/capture_20260421001935949.png)
+
+![Analytics Overview](./assets/capture_20260421002032130.png)
+
+![Login Screen](./assets/capture_20260421002107488.png)
+
+![Registration Screen](./assets/capture_20260421002136506.png)
 
 ---
 
